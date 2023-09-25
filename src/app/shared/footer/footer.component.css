@@ -1,0 +1,39 @@
+.bg-custom{
+    background-color: #212529;
+}
+.text-custom{
+    color:#F8F9FA
+}
+.container-fluid, .row{
+
+    margin-bottom: 5px;
+  
+ 
+}
+#parrafo{
+    line-height: 5px;
+}
+#footer {
+    background-color: #212529;
+    color: #F8F9FA;
+   
+    position: relative;
+    bottom: 0;
+}
+
+#pomodoro-title{
+font-size: 32px;
+}
+
+#contactanos{
+    font-size: 20px;
+    }
+#rights{
+    font-size: 20px;
+    }
+a {text-decoration: none;
+    color: inherit; }
+      
+a:hover {
+color: #dee2e6;
+}
