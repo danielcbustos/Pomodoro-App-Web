@@ -1,0 +1,32 @@
+.content {
+    color: #212529;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 700; 
+    letter-spacing: 2px;
+    word-wrap: break-word;
+ 
+}
+
+.button1 {
+    width: 181px;
+    height: 68px;
+    background: #842029;
+    border-radius: 10px;
+    border: 1px black solid;  
+    color: #f8f9fa;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer; 
+  
+
+}
+.button1:hover {
+    background-color: #58151c; 
+}
+.container-fluid{
+    margin-top: 150px;
+    margin-bottom: 148px
+}
