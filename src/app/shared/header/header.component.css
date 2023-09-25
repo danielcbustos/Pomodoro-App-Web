@@ -1,0 +1,12 @@
+.navbar-nav, .boton1{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-custom{
+    background-color: #212529;
+}
+
+.navbar-custom {
+    height: 60px;
+  }
