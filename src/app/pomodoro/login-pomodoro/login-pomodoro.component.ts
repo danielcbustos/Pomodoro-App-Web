@@ -20,7 +20,7 @@ export class LoginPomodoroComponent implements OnInit {
     this.routerPath.navigate(['/registroPomodoro']);
   }
 
-  goToList(){
-    this.routerPath.navigate(['/listaPomodoro']);
+  goToValidation(){
+    this.routerPath.navigate(['/validar']);
   }
 }
