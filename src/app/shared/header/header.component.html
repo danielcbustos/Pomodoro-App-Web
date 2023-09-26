@@ -17,20 +17,24 @@
     </a>
     <div class="collapse navbar-collapse show" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item mx-3">
+        <li class="nav-item mx-3 d-none d-md-none d-lg-block">
           <a
-            class="nav-link active"
+            class="nav-link"
             routerLink="listaPomodoro"
-            aria-current="page"
-            href="#"
+            [class.active]="activeLink === '/listaPomodoro'"
             >Lista Tarea</a
           >
         </li>
-        <li class="nav-item mx-3">
-          <a class="nav-link" href="#">Crear Tarea</a>
+        <li class="nav-item mx-3 d-none d-md-none d-lg-block">
+          <a
+            class="nav-link"
+            routerLink="crearPomodoro"
+            [class.active]="activeLink === '/crearPomodoro'"
+            >Crear Tarea</a
+          >
         </li>
       </ul>
-      <button class="boton1 btn text-white">
+      <button class="boton1 btn text-white d-none d-md-none d-lg-block">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="49"
@@ -45,7 +49,7 @@
         </svg>
       </button>
       <button
-        class="boton1 btn text-white"
+        class="boton1 btn text-white d-none d-md-none d-lg-block"
         (click)="goToWelcome()"
         type="submit"
       >

@@ -16,8 +16,8 @@
 #footer {
     background-color: #212529;
     color: #F8F9FA;
-   
-    position: relative;
+    width: 100%;
+    position: fixed;
     bottom: 0;
 }
 

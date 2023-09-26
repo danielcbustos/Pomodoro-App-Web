@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +7,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor(private routerPath: Router) { }
+  activeLink: string = '';
+  constructor(private routerPath: Router) { 
+    this.routerPath.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        this.activeLink = event.url;  // Actualiza el enlace activo cuando cambia la ruta
+      }
+    });
+  }
 
   ngOnInit() {
   }
