@@ -21,9 +21,8 @@ Para poder correr con normalidad el proyecto, asegurate de tener las siguientes 
 
 1. Clona este repositorio en local o descárgalo como un archivo ZIP.
 
-```bash
 git clone https://github.com/danielcbustos/Pomodoro-App-Web.git
-```
+
 
 2. Entra en el directorio del proyecto.
 
