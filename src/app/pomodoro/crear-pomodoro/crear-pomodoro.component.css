@@ -1,0 +1,119 @@
+.bi-question-circle-fill{
+    fill: #212529;
+    cursor: pointer;
+}
+.bi-question-circle-fill:hover{
+fill: #343A40;
+}
+
+.card-header{
+    color: #F8F9FA;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 42px;
+    word-wrap: break-word;
+    background-color: #842029;
+    
+}
+
+.card-body{
+   background-color: #CED4DA;
+   padding-left: 48px;
+   padding-right: 48px;
+   padding-top: 48px;
+}
+
+.box{
+    padding-left: 48px;
+    padding-right: 48px;
+
+  
+}
+.box2{
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #212529;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 500;  
+    word-wrap: break-word;
+}
+
+.box3{    
+    padding-right: 0px;
+}
+.no-border {
+    border: none !important; 
+  }
+
+p{
+    color: #212529;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;  
+    word-wrap: break-word;
+    line-height: 5px;
+}
+
+.button2 {
+    width: 122px;
+    height: 43px;
+    background: #842029;
+    border-radius: 10px;
+    border: 1px black solid;
+    color: #f8f9fa;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer; 
+
+}
+.button2:hover {
+    background-color: #58151c; 
+}
+
+.button1 {
+    width: 181px;
+    height: 43px;
+    background: #842029;
+    border-radius: 10px;
+    border: 1px black solid;
+    color: #f8f9fa;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer; 
+
+}
+.button1:hover {
+    background-color: #58151c; 
+}
+
+label{
+    color: #212529;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;  
+    word-wrap: break-word;
+}
+
+.form-control{
+    height: 32px;
+    background: white; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #212529;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;  
+    word-wrap: break-word;
+   
+
+}
+
+.create-form{
+    padding-left: 48px;
+    padding-right: 48px;
+}
