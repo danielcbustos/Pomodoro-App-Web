@@ -1,0 +1,57 @@
+
+.bi-plus-circle-fill{
+    cursor: pointer; 
+  
+}
+
+.bi-plus-circle-fill:hover {
+    fill: #58151c; 
+    
+  }
+.bi-trash3-fill{
+    fill: #343A40;
+    cursor: pointer;
+}
+.bi-trash3-fill:hover{
+fill: #6c757d;
+}
+
+.card-header{
+    color: #F8F9FA;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 42px;
+    word-wrap: break-word;
+    background-color: #842029;
+    
+}
+
+.card-body{
+   background-color: #CED4DA;
+   padding-left: 48px;
+   padding-right: 48px;
+   padding-top: 48px;
+}
+
+.box{
+    padding-left: 48px;
+    padding-right: 48px;
+  
+}
+.card{
+    padding: 0px;
+
+}
+.no-border {
+    border: none !important; 
+  }
+
+p{
+    color: #212529;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;  
+    word-wrap: break-word;
+    line-height: 5px;
+}

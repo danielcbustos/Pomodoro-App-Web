@@ -1,0 +1,59 @@
+<div class="box">
+  <div class="row p-5">
+    <div class="col-lg-2 col-md-0 col-sm-0"></div>
+
+    <div class="card p-5 col-lg-8 col-md-12 col-sm-12 no-border">
+      <div class="border border-dark rounded">
+        <div class="card-header text-center">Configuración de Ciclos</div>
+        <div class="card-body border-dark">
+          <form class="create-form">
+            <div class="form- group row mb-3">
+              <div class="form-group col-lg-5">
+                <label for="nombre">Cantidad de ciclos:</label>
+              </div>
+              <div class="form-group col-lg-6 mb-1">
+                <input type="text" value="4" class="form-control rounded-0" />
+              </div>
+              <div class="min col-lg-1"></div>
+            </div>
+
+            <div class="form- group row mb-3">
+              <div class="form-group col-lg-5">
+                <label for="description">Duración de ciclos:</label>
+              </div>
+              <div class="form-group col-lg-6 mb-1">
+                <input type="text" value="20" class="form-control rounded-0" />
+              </div>
+              <div class="min col-lg-1">
+                <label for="min">min</label>
+              </div>
+            </div>
+
+            <div class="form- group row mb-3">
+              <div class="form-group col-lg-5">
+                <label for="description">Duración de descansos:</label>
+              </div>
+              <div class="form-group col-lg-6 mb-1">
+                <input type="text" value="4" class="form-control rounded-0" />
+              </div>
+              <div class="min col-lg-1">
+                <label for="min">min</label>
+              </div>
+            </div>
+            <div class="mt-5">
+              <p class="text-center">
+                <button class="button2 mx-1" (click)="goToCreate()">
+                  Guardar
+                </button>
+                <button class="button2 mx-1" (click)="goToCreate()">
+                  Cancelar
+                </button>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-0 col-sm-0"></div>
+    </div>
+  </div>
+</div>
