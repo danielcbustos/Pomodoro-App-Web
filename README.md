@@ -1,27 +1,40 @@
-# Pomodoroweb
+# ALARMAS POMODORO APP WEB
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Alarmas Pomodoro App es una aplicación con la cual podras aplicar la tecnica Pomodoro para que puedas mejorar tu gestión del tiempo, tu concentración y equilibrio en tus actividades diarias.Te presentamos la versión web, la cual te permitira registrarte, realizar login, validar login, crear una tarea Pomodoro y visualizarla en la lista de tareas Pomodoro, asi como eliminarla y configurar sus ciclos.
 
-## Development server
+## Autores
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+`DANIEL CAMILO BUSTOS RODRIGUEZ` & `CAMILO ANDRES GUEVARA TRIANA`
 
-## Code scaffolding
+## Requisitos Previos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para poder correr con normalidad el proyecto, asegurate de tener las siguientes instalaciones en tu sistema:
 
-## Build
+- [Node.js](https://nodejs.org/): Puedes descargarlo desde el sitio web oficial.
+  Verifica que esté instalado ejecutando `node -v`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [npm](https://www.npmjs.com/): npm (Node Package Manager) se instala automáticamente con Node.js. Verifica que esté instalado ejecutando `npm -v`.
 
-## Running unit tests
+- [Angular CLI](https://cli.angular.io/): Angular CLI es una herramienta de línea de comandos que facilita la creación y gestión de proyectos de Angular. Puedes instalarlo globalmente ejecutando `npm install -g @angular/cli`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación
 
-## Running end-to-end tests
+1. Clona este repositorio en local o descárgalo como un archivo ZIP.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone https://github.com/danielcbustos/Pomodoro-App-Web.git
+```
 
-## Further help
+2. Entra en el directorio del proyecto.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Instala dependencias:
+
+```npm install
+
+```
+
+4. Lanza el servidor para ver la aplicación en http://localhost:4200/ , se abrira la aplicación en tu navegador web predeterminado:
+
+```ng serve -o
+
+```
