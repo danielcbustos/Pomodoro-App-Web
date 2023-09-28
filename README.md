@@ -35,5 +35,4 @@ npm install```
 4. Lanza el servidor para ver la aplicación en http://localhost:4200/ , se abrira la aplicación en tu navegador web predeterminado:
 
 ```bash
-ng serve -o
-```
+ng serve -o```
