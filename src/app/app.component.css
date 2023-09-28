@@ -1,0 +1,7 @@
+.contenedor {
+    min-height: 82vh;
+    align-items: center;
+}
+.barraNavegacion{
+    top: 0px;
+}
